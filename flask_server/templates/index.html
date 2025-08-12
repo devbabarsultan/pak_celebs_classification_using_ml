@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistani Celebrity Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pakistani Celebrity Recognition</h1>
+            <p class="subtitle">Upload a clear face photo of one of these celebrities:</p>
+        </div>
+        
+        <div class="sample-faces">
+            <div class="face-circle">
+                <img src="{{ url_for('static', filename='images/bhola.jpg') }}" alt="Field Marshal Bhola">
+                <span>Field Marshal Bhola Record</span>
+            </div>
+            <div class="face-circle">
+                <img src="{{ url_for('static', filename='images/atif.jpg') }}" alt="Atif Aslam">
+                <span>Atif Aslam</span>
+            </div>
+            <div class="face-circle">
+                <img src="{{ url_for('static', filename='images/waqar.jpg') }}" alt="Waqar Zaka">
+                <span>Waqar Zaka</span>
+            </div>
+            <div class="face-circle">
+                <img src="{{ url_for('static', filename='images/imran.jpg') }}" alt="Imran Khan">
+                <span>Imran Khan</span>
+            </div>
+            <div class="face-circle">
+                <img src="{{ url_for('static', filename='images/humayun.jpg') }}" alt="Humayun Saeed">
+                <span>Humayun Saeed</span>
+            </div>
+        </div>
+
+        <div class="upload-section">
+            <div class="upload-box" id="dropArea">
+                <input type="file" id="imageInput" accept="image/*" hidden>
+                <label for="imageInput" class="upload-btn">
+                    <img src="{{ url_for('static', filename='images/upload-icon.png') }}" class="upload-icon">
+                    <span id="uploadText">Drag & drop image or click to browse</span>
+                    <div id="previewContainer"></div>
+                </label>
+                <button id="classifyBtn" disabled>
+                    <img src="{{ url_for('static', filename='images/scan-icon.jpeg') }}" class="btn-icon">
+                    Recognize Face
+                </button>
+            </div>
+
+            <div id="resultContainer" class="hidden">
+                <div class="result-card">
+                    <h2>Recognition Result:</h2>
+                    <div class="result-content">
+                        <div id="resultImage" class="result-image"></div>
+                        <p id="resultText" class="result-text"></p>
+                    </div>
+                    <button id="tryAgainBtn">Try Another</button>
+                </div>
+            </div>
+
+            <div class="loading hidden" id="loadingSpinner">
+                <div class="spinner"></div>
+                <p>Analyzing face...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

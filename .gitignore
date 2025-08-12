@@ -1,0 +1,9 @@
+xyz.ipynb
+
+__pycache__/
+*.py[cod]
+
+test.jpg
+*.png
+*.jpg
+*.jpeg
