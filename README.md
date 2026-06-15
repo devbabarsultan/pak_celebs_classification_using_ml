@@ -6,10 +6,11 @@
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devbabarsultan/pak_celebs_classification_using_ml)](https://github.com/devbabarsultan/pakistani-celebrity-recognition)
 
-
-## Pakistan celebrity recognition web app that identifies a celebrity from an uploaded face photo using a trained ML model.
-# Built with Flask + OpenCV for face detection, preprocessing, and fast in-browser uploads.
-
+###
+# Pakistan celebrity recognition web app that identifies a celebrity from an uploaded face photo using a trained ML model.
+###
+## Built with Flask + OpenCV for face detection, preprocessing, and fast in-browser uploads.
+###
 
 ---
 
