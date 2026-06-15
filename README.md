@@ -4,11 +4,10 @@
 [![NumPy](https://img.shields.io/badge/NumPy-1.21+-blue)](https://numpy.org/)
 [![Joblib](https://img.shields.io/badge/joblib-1.2+-orange)](https://joblib.readthedocs.io/)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)](LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/devbabarsultan/pakistani-celebrity-recognition)](https://github.com/devbabarsultan/pakistani-celebrity-recognition)
-# Pakistani Celebrity Recognition (Face Classification)
-
+[![GitHub last commit](https://img.shields.io/github/last-commit/devbabarsultan/pak_celebs_classification_using_ml)](https://github.com/devbabarsultan/pakistani-celebrity-recognition)
 Pakistan celebrity recognition web app that identifies a celebrity from an uploaded face photo using a trained ML model.
 Built with Flask + OpenCV for face detection, preprocessing, and fast in-browser uploads.
+
 
 ---
 
