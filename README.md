@@ -122,5 +122,5 @@ The backend loads:
 
 ## 📄 License
 
-Add your license information here (e.g., MIT, Apache-2.0). If you do not want to specify, you can write: **All rights reserved**.
+**All rights reserved**.
 
