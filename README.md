@@ -1,3 +1,10 @@
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-2.x-lightgrey)](https://flask.palletsprojects.com/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green)](https://opencv.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.21+-blue)](https://numpy.org/)
+[![Joblib](https://img.shields.io/badge/joblib-1.2+-orange)](https://joblib.readthedocs.io/)
+[![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)](LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/devbabarsultan/pakistani-celebrity-recognition)](https://github.com/devbabarsultan/pakistani-celebrity-recognition)
 # Pakistani Celebrity Recognition (Face Classification)
 
 Pakistan celebrity recognition web app that identifies a celebrity from an uploaded face photo using a trained ML model.
@@ -70,10 +77,7 @@ Then open:
 
 ## 🖼️ Screenshots / UI Preview
 
-### Frontend Image (placeholder)
-
-> Replace this placeholder with a real screenshot from `flask_server/static/` once available.
-
+### Frontend Image
 ![Frontend Screenshot Placeholder](demo.png)
 
 ### Frontend HTML (static mode)
