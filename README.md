@@ -1,6 +1,7 @@
 # Pakistani Celebrity Recognition (Face Classification)
 
-A Flask-based web application that recognizes Pakistani celebrities from an uploaded face image using a trained machine learning model.
+Pakistan celebrity recognition web app that identifies a celebrity from an uploaded face photo using a trained ML model.
+Built with Flask + OpenCV for face detection, preprocessing, and fast in-browser uploads.
 
 ---
 
