@@ -14,7 +14,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - Upload an image (drag & drop or browse)
 - Face detection and cropping (requires at least 2 detected eyes)
@@ -23,7 +23,7 @@
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 - `flask_server/` — Flask backend + frontend assets (templates, static files)
   - `server.py` — Flask app entry point
@@ -36,7 +36,7 @@
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. The frontend sends the uploaded image to the Flask API as a Base64 string.
 2. Backend decodes the image, detects a face, and crops it.
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 Running the App Locally
+## Running the App Locally
 
 ### 1) Prerequisites
 
@@ -77,7 +77,7 @@ Then open:
 
 ---
 
-## 🖼️ Screenshots / UI Preview
+## Screenshots / UI Preview
 
 ### Frontend Image
 ![Frontend Screenshot Placeholder](demo.png)
@@ -90,7 +90,7 @@ If you want to take a screenshot without running Flask, open:
 
 ---
 
-## 🧪 Usage
+## Usage
 
 1. Open the app in your browser.
 2. Drag and drop a clear face photo of one of the supported celebrities.
@@ -99,7 +99,7 @@ If you want to take a screenshot without running Flask, open:
 
 ---
 
-## 📁 Model Files
+## Model Files
 
 The backend loads:
 
@@ -108,7 +108,7 @@ The backend loads:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Performance depends heavily on image quality and face visibility.
 - Images must be clear enough for the face detector.
@@ -116,7 +116,7 @@ The backend loads:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Flask (backend web server)
 - OpenCV (face/eye detection)
@@ -127,7 +127,7 @@ The backend loads:
 
 ---
 
-## 📄 License
+## License
 
 **All rights reserved**.
 
